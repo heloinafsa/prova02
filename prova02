@@ -1,0 +1,105 @@
+#include<stdio.h>
+void main(){
+    int i;
+    for(i=0; i<=20; i++){
+         if(i%2==0){
+             int soma= i+i;
+             
+          
+        }
+    }
+     printf("A soma dos numeros pares entre 0 e 20 é: %d \n", soma);
+    
+}
+
+
+#include <stdio.h>
+void main(){
+  int array[10];
+    printf("digite uma string:\n");
+    scanf("%d", &array[10]);
+  
+      if(array == 'a'){
+         
+          printf("a quantidade de A na sua string é:%d \n", 'a'+'a');
+   }
+}
+
+
+#include<stdio.h>
+int trocar(int *a, int *b){
+    *a=*b;
+    *b=*a;
+  
+    
+void main(){
+    int a = 10;
+    int b = 5;
+    
+    a = b;
+    b = a;
+    
+    printf(" o valor de a é:%d\n", a);
+    printf("o valor de b é:%d\n", b);
+    
+   int trocar 
+   printf("o valor de A é:%d\n", *a);
+   printf("o valor de B é:%d\n", *b);
+     
+}
+    
+}
+
+
+#include<stdio.h>
+void main(){
+    char vetor[10];
+    printf("informe 10 caracteres :\n");
+    scanf("%c", &vetor[10]);
+
+    char troca(char *a){
+        char z;
+        *a = z;
+        printf("vetor normal:");
+        
+        printf("seu vetor trocado:", troca);
+        
+        
+        
+    }
+}
+
+
+#include<stdio.h>
+void main(){
+    int valor, centena, dezena, unidade;
+    printf("informe o valor da centena do seu saque :\n");
+    scanf("%d", &centena);
+    printf("informe o valor da dezena do seu saque:\n");
+    scanf("%d", &dezena);
+    printf("informe o valor da unidade inteira do seu saque:\n");
+    scanf("%d", &unidade);
+    
+    if(centena%100==0){
+        printf("a quantidade minima de notas é:%d\n", centena/100);
+    }
+    if(dezena%50==0){
+        printf("a quantidade minima de notas é:%d\n ", dezena/50);
+    }   
+    if(dezena%20==0){
+        printf("a quantidade minima de notas é:%d\n", dezena/20);
+    }
+    if(dezena%10==0){
+       printf("a quantidade minima de notas é:%d\n", dezena/10);
+    }
+    if(unidade%5==0){
+        printf("a quantidade minima de notas é:%d\n", unidade/5);
+    }
+    if(unidade%2==0){
+        printf("a quantidade minina de notas é:%d\n", unidade/2);
+    }
+    valor=unidade+centena+dezena;
+    printf("quantidade de cedulas:%d ",  valor=unidade+centena+dezena);
+        
+    
+}
